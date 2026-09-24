@@ -1,3 +1,5 @@
+<!-- SPDX-License-Identifier: EUPL-1.2 -->
+
 <script setup lang="ts">
 import { computed, ref, watch } from 'vue';
 import { lxStringUtils, LxIcon, LxLogoDisplay, LxCard } from '@dativa-lv/lx-ui';

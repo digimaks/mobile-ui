@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: EUPL-1.2
+
 module.exports = {
   ignorePatterns: ['jsconfig.js'],
   settings: {

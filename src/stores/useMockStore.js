@@ -70,7 +70,7 @@ export const useMockStore = defineStore('mock', {
                   type: 'default',
                   identifier: 'given_name',
                   label: 'Given Name(s)',
-                  value: 'MĀRA',
+                  value: 'TESTA',
                 },
                 {
                   type: 'default',
@@ -82,7 +82,7 @@ export const useMockStore = defineStore('mock', {
                   type: 'default',
                   identifier: 'birth_date',
                   label: 'Birth Date',
-                  value: '1982-12-12',
+                  value: '1900-01-01',
                 },
                 {
                   type: 'default',
@@ -94,25 +94,25 @@ export const useMockStore = defineStore('mock', {
                   type: 'default',
                   identifier: 'personal_administrative_number',
                   label: 'Person unique personal administrative number',
-                  value: '32015372306',
+                  value: '32000000000',
                 },
                 {
                   type: 'default',
                   identifier: 'birth_country',
                   label: 'Birth Country',
-                  value: 'AI',
+                  value: 'FR',
                 },
                 {
                   type: 'default',
                   identifier: 'family_name',
                   label: 'Family Name(s)',
-                  value: 'PARAUDZIŅA',
+                  value: 'PERSONA',
                 },
                 {
                   type: 'default',
                   identifier: 'birth_place',
                   label: 'Birth Place',
-                  value: 'ANGILJA',
+                  value: 'TESTAPILSĒTA',
                 },
               ],
             },
@@ -129,7 +129,7 @@ export const useMockStore = defineStore('mock', {
                   textColor: null,
                   description1: 'LV',
                   description2: 'B, BE, C, CE, D',
-                  description3: 'Dancotājs',
+                  description3: 'Testētājs',
                   name: null,
                 },
                 issuanceState: 'Issued',
@@ -137,7 +137,7 @@ export const useMockStore = defineStore('mock', {
                 isFavorite: true,
                 expirationDate: '2025-02-26',
                 issuanceDate: '2025-02-19',
-                displayNumber: 'WE000109',
+                displayNumber: 'WE000000',
               },
             },
             {
@@ -162,7 +162,7 @@ export const useMockStore = defineStore('mock', {
                 isFavorite: true,
                 expirationDate: '',
                 issuanceDate: '2024-11-04T12:05:52+01:00',
-                displayNumber: '320153-72306',
+                displayNumber: '320000-00000',
               },
             },
             {
@@ -186,20 +186,20 @@ export const useMockStore = defineStore('mock', {
                 isFavorite: true,
                 expirationDate: '2025-11-04T12:05:52+01:00',
                 issuanceDate: '2024-11-04T12:05:52+01:00',
-                displayNumber: '545353543', // todo
+                displayNumber: '000000000', // todo
               },
               documentDetails: [
                 {
                   type: 'default',
                   identifier: 'sid',
                   label: 'sid',
-                  value: 'cZ5OztvziLYzhKFdsuL5pC-4z_Q',
+                  value: 'TEST_SID_0000000000000000000',
                 },
                 {
                   type: 'default',
                   identifier: 'cn',
                   label: 'cn',
-                  value: 'MĀRA PARAUDZIŅA',
+                  value: 'TESTA PERSONA',
                 },
                 {
                   type: 'default',
@@ -242,20 +242,20 @@ export const useMockStore = defineStore('mock', {
                 isFavorite: true,
                 expirationDate: '2025-11-04T12:05:52+01:00',
                 issuanceDate: '2024-11-04T12:05:52+01:00',
-                displayNumber: '545353543', // todo
+                displayNumber: '000000000', // todo
               },
               documentDetails: [
                 {
                   type: 'default',
                   identifier: 'sid',
                   label: 'sid',
-                  value: 'cZ5OztvziLYzhKFdsuL5pC-4z_Q',
+                  value: 'TEST_SID_0000000000000000000',
                 },
                 {
                   type: 'default',
                   identifier: 'cn',
                   label: 'cn',
-                  value: 'SIA DEMO QSEAL: eZīmogs',
+                  value: 'SIA TEST QSEAL: eZīmogs',
                 },
                 {
                   type: 'default',
@@ -307,7 +307,7 @@ export const useMockStore = defineStore('mock', {
               isFavorite: false,
               expirationDate: '2025-05-20',
               issuanceDate: '2025-02-19',
-              displayNumber: '32015372306',
+              displayNumber: '32000000000',
             },
             documentDetails: [
               {
@@ -338,7 +338,7 @@ export const useMockStore = defineStore('mock', {
                 type: 'default',
                 identifier: 'given_name',
                 label: 'Given Name(s)',
-                value: 'MĀRA',
+                value: 'TESTA',
               },
               {
                 type: 'default',
@@ -350,7 +350,7 @@ export const useMockStore = defineStore('mock', {
                 type: 'default',
                 identifier: 'birth_date',
                 label: 'Birth Date',
-                value: '1982-12-12',
+                value: '1900-01-01',
               },
               {
                 type: 'default',
@@ -362,25 +362,25 @@ export const useMockStore = defineStore('mock', {
                 type: 'default',
                 identifier: 'personal_administrative_number',
                 label: 'Person unique personal administrative number',
-                value: '32015372306',
+                value: '32000000000',
               },
               {
                 type: 'default',
                 identifier: 'birth_country',
                 label: 'Birth Country',
-                value: 'AI',
+                value: 'FR',
               },
               {
                 type: 'default',
                 identifier: 'family_name',
                 label: 'Family Name(s)',
-                value: 'PARAUDZIŅA',
+                value: 'PERSONA',
               },
               {
                 type: 'default',
                 identifier: 'birth_place',
                 label: 'Birth Place',
-                value: 'ANGILJA',
+                value: 'TESTAPILSĒTA',
               },
             ],
           },
@@ -401,7 +401,7 @@ export const useMockStore = defineStore('mock', {
                 textColor: null,
                 description1: 'LV',
                 description2: 'B, BE, C, CE, D',
-                description3: 'Dancotājs',
+                description3: 'Testētājs',
                 name: null,
               },
               issuanceState: 'Issued',
@@ -409,7 +409,7 @@ export const useMockStore = defineStore('mock', {
               isFavorite: false,
               expirationDate: '2025-02-26',
               issuanceDate: '2025-02-19',
-              displayNumber: 'WE000109',
+              displayNumber: 'WE000000',
             },
             documentDetails: [
               {
@@ -434,13 +434,13 @@ export const useMockStore = defineStore('mock', {
                 type: 'default',
                 identifier: 'document_number',
                 label: 'Licence number',
-                value: 'WE000109',
+                value: 'WE000000',
               },
               {
                 type: 'default',
                 identifier: 'personal_administrative_number',
                 label: 'Person unique personal administrative number',
-                value: '32015372306',
+                value: '32000000000',
               },
               {
                 type: 'default',
@@ -452,7 +452,7 @@ export const useMockStore = defineStore('mock', {
                 type: 'default',
                 identifier: 'given_name',
                 label: 'Given names',
-                value: 'SANDAMU HASIKA RATHMALGODA',
+                value: 'TESTA PERSONA',
               },
               {
                 type: 'default',
@@ -470,13 +470,13 @@ export const useMockStore = defineStore('mock', {
                 type: 'default',
                 identifier: 'birth_date',
                 label: 'Date of birth',
-                value: '1965-02-15',
+                value: '1900-01-01',
               },
               {
                 type: 'default',
                 identifier: 'family_name',
                 label: 'Family name',
-                value: 'RATHMALSODA HERANISE MIDIANSEHANU',
+                value: 'PERSONA TESTA',
               },
               {
                 type: 'default',
@@ -518,7 +518,7 @@ export const useMockStore = defineStore('mock', {
               isFavorite: false,
               expirationDate: '',
               issuanceDate: '2024-11-04T12:05:52+01:00',
-              displayNumber: '320153-72306',
+              displayNumber: '320000-00000',
             },
             documentDetails: [
               {
@@ -531,7 +531,7 @@ export const useMockStore = defineStore('mock', {
                 type: 'default',
                 identifier: 'family_name',
                 label: 'The family name of the person',
-                value: 'Paraudziņa',
+                value: 'Persona',
               },
               {
                 type: 'default',
@@ -555,7 +555,7 @@ export const useMockStore = defineStore('mock', {
                 type: 'default',
                 identifier: 'nationalID',
                 label: 'The national identifier of the person',
-                value: '320153-72306',
+                value: '320000-00000',
               },
               {
                 type: 'default',
@@ -604,7 +604,7 @@ export const useMockStore = defineStore('mock', {
                 type: 'default',
                 identifier: 'awardingBody_registration',
                 label: 'The legal identifier of the awarding body',
-                value: '90000068977',
+                value: '90000000000',
               },
               {
                 type: 'default',
@@ -634,7 +634,7 @@ export const useMockStore = defineStore('mock', {
                 type: 'default',
                 identifier: 'given_name',
                 label: 'The given name(s) of the person',
-                value: 'Māra',
+                value: 'Testa',
               },
             ],
           },
@@ -663,20 +663,20 @@ export const useMockStore = defineStore('mock', {
               isFavorite: true,
               expirationDate: '2025-11-04T12:05:52+01:00',
               issuanceDate: '2024-11-04T12:05:52+01:00',
-              displayNumber: '545353543', // todo
+              displayNumber: '000000000', // todo
             },
             documentDetails: [
               {
                 type: 'default',
                 identifier: 'sid',
                 label: 'sid',
-                value: 'cZ5OztvziLYzhKFdsuL5pC-4z_Q',
+                value: 'TEST_SID_0000000000000000000',
               },
               {
                 type: 'default',
                 identifier: 'cn',
                 label: 'cn',
-                value: 'MĀRA PARAUDZIŅA',
+                value: 'TESTA PERSONA',
               },
               {
                 type: 'default',
@@ -723,20 +723,20 @@ export const useMockStore = defineStore('mock', {
               isFavorite: true,
               expirationDate: '2025-11-04T12:05:52+01:00',
               issuanceDate: '2024-11-04T12:05:52+01:00',
-              displayNumber: '545353543', // todo
+              displayNumber: '000000000', // todo
             },
             documentDetails: [
               {
                 type: 'default',
                 identifier: 'sid',
                 label: 'sid',
-                value: 'cZ5OztvziLYzhKFdsuL5pC-4z_Q',
+                value: 'TEST_SID_0000000000000000000',
               },
               {
                 type: 'default',
                 identifier: 'cn',
                 label: 'cn',
-                value: 'SIA DEMO QSEAL: eZīmogs',
+                value: 'SIA TEST QSEAL: eZīmogs',
               },
               {
                 type: 'default',
@@ -783,7 +783,7 @@ export const useMockStore = defineStore('mock', {
               isFavorite: false,
               expirationDate: '',
               issuanceDate: '2024-11-04T12:05:52+01:00',
-              displayNumber: '320153-72306',
+              displayNumber: '320000-00000',
             },
             documentDetails: [],
           },
@@ -855,7 +855,7 @@ export const useMockStore = defineStore('mock', {
                   id: 'family_namewYJMnQeApGnc',
                   isRequired: false,
                   readableName: 'Family Name(s)',
-                  value: 'PARAUDZIŅA',
+                  value: 'PERSONA',
                 },
                 {
                   checked: true,
@@ -864,7 +864,7 @@ export const useMockStore = defineStore('mock', {
                   id: 'given_namewYJMnQeApGnc',
                   isRequired: false,
                   readableName: 'Given Name(s)',
-                  value: 'MĀRA',
+                  value: 'TESTA',
                 },
                 {
                   checked: true,
@@ -873,7 +873,7 @@ export const useMockStore = defineStore('mock', {
                   id: 'birth_datewYJMnQeApGnc',
                   isRequired: false,
                   readableName: 'Birth Date',
-                  value: '1982-12-12',
+                  value: '1900-01-01',
                 },
                 {
                   checked: true,
@@ -927,7 +927,7 @@ export const useMockStore = defineStore('mock', {
                   id: 'birth_placewYJMnQeApGnc',
                   isRequired: false,
                   readableName: 'Birth Place',
-                  value: 'ANGILJA',
+                  value: 'TESTAPILSĒTA',
                 },
                 {
                   checked: true,
@@ -936,7 +936,7 @@ export const useMockStore = defineStore('mock', {
                   id: 'birth_countrywYJMnQeApGnc',
                   isRequired: false,
                   readableName: 'Birth Country',
-                  value: 'AI',
+                  value: 'FR',
                 },
                 {
                   checked: false,
@@ -1135,7 +1135,7 @@ export const useMockStore = defineStore('mock', {
                   id: 'family_nameDocument_EudiWalletDocumentManager_061842b9-a2c0-4c9b-953b-49e3bc5e5d4b',
                   isRequired: false,
                   readableName: 'Family name',
-                  value: 'RATHMALSODA HERANISE MIDIANSEHANU',
+                  value: 'PERSONA TESTA',
                 },
                 {
                   checked: true,
@@ -1144,7 +1144,7 @@ export const useMockStore = defineStore('mock', {
                   id: 'given_nameDocument_EudiWalletDocumentManager_061842b9-a2c0-4c9b-953b-49e3bc5e5d4b',
                   isRequired: false,
                   readableName: 'Given names',
-                  value: 'SANDAMU HASIKA RATHMALGODA',
+                  value: 'TESTA PERSONA',
                 },
                 {
                   checked: true,
@@ -1153,7 +1153,7 @@ export const useMockStore = defineStore('mock', {
                   id: 'birth_dateDocument_EudiWalletDocumentManager_061842b9-a2c0-4c9b-953b-49e3bc5e5d4b',
                   isRequired: false,
                   readableName: 'Date of birth',
-                  value: '1965-02-15',
+                  value: '1900-01-01',
                 },
                 {
                   checked: true,
@@ -1225,7 +1225,7 @@ export const useMockStore = defineStore('mock', {
                   id: 'document_numberDocument_EudiWalletDocumentManager_061842b9-a2c0-4c9b-953b-49e3bc5e5d4b',
                   isRequired: false,
                   readableName: 'Licence number',
-                  value: 'WE000109',
+                  value: 'WE000000',
                 },
                 {
                   checked: true,
@@ -1234,7 +1234,7 @@ export const useMockStore = defineStore('mock', {
                   id: 'portraitDocument_EudiWalletDocumentManager_061842b9-a2c0-4c9b-953b-49e3bc5e5d4b',
                   isRequired: false,
                   readableName: 'Portrait of mDL holder',
-                  value: '_9jY__Z',
+                  value: 'BASE64_PLACEHOLDER_IMAGE',
                 },
                 {
                   checked: true,
@@ -1447,7 +1447,7 @@ export const useMockStore = defineStore('mock', {
             {
               id: 'org.iso.18013.5.1.mDLfamily_nameDocument_EudiWalletDocumentManager_e1bded50-d542-4bbf-88ab-e059209264f6',
               readableName: 'Family name',
-              value: 'Janis',
+              value: 'Testa',
               checked: true,
               enabled: true,
               elementIdentifier: 'family_name',
@@ -1458,7 +1458,7 @@ export const useMockStore = defineStore('mock', {
             {
               id: 'org.iso.18013.5.1.mDLgiven_nameDocument_EudiWalletDocumentManager_e1bded50-d542-4bbf-88ab-e059209264f6',
               readableName: 'Given names',
-              value: 'Liepa',
+              value: 'Persona',
               checked: true,
               enabled: true,
               elementIdentifier: 'given_name',
@@ -1469,7 +1469,7 @@ export const useMockStore = defineStore('mock', {
             {
               id: 'org.iso.18013.5.1.mDLbirth_dateDocument_EudiWalletDocumentManager_e1bded50-d542-4bbf-88ab-e059209264f6',
               readableName: 'Date of birth',
-              value: '2025-01-27',
+              value: '1900-01-01',
               checked: true,
               enabled: true,
               elementIdentifier: 'birth_date',
@@ -1557,7 +1557,7 @@ export const useMockStore = defineStore('mock', {
             {
               id: 'org.iso.18013.5.1.mDLdocument_numberDocument_EudiWalletDocumentManager_e1bded50-d542-4bbf-88ab-e059209264f6',
               readableName: 'Licence number',
-              value: '4343432',
+              value: '0000000',
               checked: true,
               enabled: true,
               elementIdentifier: 'document_number',
@@ -1568,8 +1568,7 @@ export const useMockStore = defineStore('mock', {
             {
               id: 'org.iso.18013.5.1.mDLportraitDocument_EudiWalletDocumentManager_e1bded50-d542-4bbf-88ab-e059209264f6',
               readableName: 'Portrait of mDL holder',
-              value:
-                '9j_4AAQSkZJRgABAQIAJQAlAAD_4QBiRXhpZgAATU0AKgAAAAgABQESAAMAAAABAAEAAAEaAAUAAAABAAAASgEbAAUAAAABAAAAUgEoAAMAAAABAAMAAAITAAMAAAABAAEAAAAAAAAAAAAlAAAAAQAAACUAAAAB_9sAQwADAgICAgIDAgICAwMDAwQGBAQEBAQIBgYFBgkICgoJCAkJCgwPDAoLDgsJCQ0RDQ4PEBAREAoMEhMSEBMPEBAQ_8AACwgBsQFoAQERAP_EAB4AAQABBAMBAQAAAAAAAAAAAAABAgcICQMEBgoF_8QASRAAAQMDAwMCBQAHBAYGCwAAAQACAwQFEQYHEgghMQlBEyJRYXEUIzJCUoGRFWJyshgzOHWCwhZDobHR8CQlJjQ1REaFs8PU_9oACAEBAAA_ANqL_ZSPClERERERERERERERERERERERERERERUv9vypHhSiIiIiIiIi4Q93_k5I_Psvy7_qiw6Vtk961LfaG1W-mbzmqq2pZTwsbj9oveQGjse5IH3Vir16hnRpYq6S31u_thfNE7DjSRVNXFn7SQxPa4fgrqD1J-iR_wCxvxbj_wDa7gP_ANC_E1f6pPRhpaifUUu51VqCpa3Io7RZqt8z_wAOljZEP-J4Vuz60HS04fq9GbnfztND_wD2LyJ9bDa4ainp27M6pdYW5-BXfp8H6U_s0_NT44M7kj_Wu8L8mq9bvTUdZPHQ9Pd1nphK4QSS6jjje6MeHOYKd3B31bycB7OXYqfW30T-kUYpNi72ad7miqfLeImvYD5MYbE4Px93NVwZ_WQ6WYqlsAse4UzBHHI-aC1Uvw2lzWuMeX1IcXMyWO-XBcxxa4tw53vtLeqP0YanjgbNunPY6mVveC6WesiLHfwue2N0Y_Iesk9F670luLYabVWhtTW--WirGYauhnbLE7_ibnv9shejRERERERERERUv9vypHhSiIiIiIijIX5V6vtu07bKq9Xy501voKCB9TU1NRK2KGGJgy973uOGtaO5JIA8Ela5t5vWY0pp7UE9j2W0B_0opaaV0ZutxqX00VRxdjMUQHMtJ_ZLi0keWrEDfD1N-pzeCpMNs1M3RVoc3j-gWF5j5fd8zsyH-RasbNS7n7k6ypP7P1buHqS90jZPitguN1nqYw-INkcRnv5XmCSexPhEySMEnAQEjwSnJx8uP8AVTyd_Ef6pyd3-Y9_Pfyge8Yw89vHfwo5O-pVydpuoPenZKsM-1m4d3sTXSfEkpoJS6CQ_V0Tg5hP5C2JdNnrERzPp9MdS1mFO48YxqK0U5c0Euxymp25-UDuXMz_AIXLZbpTWGntb2Ci1TpC_Ul5s9yiZNSV1FM2aCVjs9w9p748HuDkY_aBC_fyFKIiIiIiIiKl_t-VI8KURERERRkfVdK43KitlHLcLhcKekpIGfFlmnlDGMZ_E5xIDR9z2WIPUJ6oPTxs02W1aSvTNf6gAcBTWWpa-lheOwEtSAYwM-zC4_XitPu8PUzvPvdqC63vWuvr1LT3Ob4ptcddIyiiZz5RxthDuBDfqRlWlyfGShJPknsiIiIiIiZP1VTXuJ7uJ8nz9fKvv0zdXe7_AEwaghuGjL1UVFikmDq6xVUhdSVLB-3huPkecftNwR75W7jpv6v9nOp2xCs0BqNkd7hjY64WKsIiraJ3FvLLCf1rORAD4-QPIAlrsht9GOLhnPnwqh4UoiIiIiIipf7flSPClERERFB8K12_m_m33Ttt_Xbg7hXcU9NSjFNSxvBqK6Y_sxRM8kl2AfZoBJ-UFaZOsT1B9fdVdJT6Uo7QNK6UpZnSuoYKovfWOPYGd_ytOG_ugYysRnPz4Kjk7OeRz9cqEREREREREU83YI5HBxkZ8r9vSurNS6HvtLqXSN7rbNdaJwkgq6SZ0U0Z98EHJB75Hus_Omz1dtyNJV9Hp7qApRqqxktjddKSJkdxp2-73BoDJh3OR8rhjsVte2z3R0JvFouh17ttqilvlkr2coqmne5pYWn5mPY4B0cjT-0x7Q4HsQAvYZb9VUiIiIiIipf7flSPClERERF4vdXdLR-zWgLzuVr28C32ayUxnne7HKR2QGRRtP7Ukji1jWeSXADHcrQj1k9WN16rtxo9WSWR1ms1ugNLbaAzukw3k4mR_fjzcCMhoAGBhY85I8EoiIiIiIiIiIiZOMZU8nYI5HBOSMq-nS71abldK-sf7b0VXGostdLH_a1kmcTTVjB5IHlkgGeLx3GRnK3v9P3UJt51Jbe0e4e3V1E8M2I62ieQKi3VAALoZmeWuwcg-HN4ubkOBN0g5rhkFVIiIiIiKl_t-VI8KURERF1pKhkeXukwG-SQcAfnOMDySfZaS_U96vnb27iO2m0TdXS6K0hUPY-SneTDX1wy18vbs5rAXNaT7lx-iwU5HOcnP1RERERERERERERE5H6lXn6Yep3X_S3uFHrjRtQailnaIbpapXEQ3CnySQ7HhwJPF3kZOFvq6c-oHRPUttbQboaFndHT1DjTV1HKQZrfWMDTJBJjsDhzHA-C17XeCALroiIiIiKl_t-VI8KURERFrd9UPreOgbTV9O21l1lh1LdIf_aC4U7-JoqRzDmna7yJXjHI-zPl8uHHT2ZHZJ8E-VSiIiIiIiIiIiIiIp5OHhx_qspegrq6uvSzueyS4zSz6K1G-OmvlKCeMBzgVTR_EweR7sJ_hC36W250d2oKa522qZU0tZEyeGVjgQ-N4Ba4Y7EEEH-a7yIiIiIqX-35UjwpRERF1KqshoKeWsq52xQQsdJJI92A1gBJJz2wACST9F81fUHraPcXfLXWuKOsdWU13vlZUU0_f9ZAJSI3j6Dg1uPsrbIiIiIiIiIiIiIiIiqD3e3t2W5n0jepiu3J23r9kNVVj57toWJklrnleC6W2PPFsZ9_1TsN_wALox4C2GoiIiIipf7flSPClEREWIXqi7nXvbDpJv79P1bqWr1VXU2nDO1-HMhna90wb75dFDI37CRx8gLQq4nx7fRQiIiIiIiIiIiIiIiIskugzqEh6dOoexasulVwsN2YbPeXPGGx00zwBIT7CNwZJgecFfQZSVcVZBHVU0okgmjbJG9juTS0jIcD75BBXaRERERUv9vypHhSiIiLU960u7sNZdNE7JUTnl1vEl-uAz8vKRpjhbjxkN59_wC-tXCIiIiIiIiIiIiIiIiKQ5w8OI9_K3--nJv1Qb5dNFha74kd60bHFpy6xySc3ySQwsMdQCe_GVhae_hwkb4asqkREREVL_b8qR4UoiIi0ber-T_pcTDPjT9v_wArlhAiIiIiIiIiIiIiIiIiLZF6K2sqm3bua60BLWsbRXqwxXFkLnY-JPTzhgLR9fhzSE_YLcKCD4KlERERUv8Ab8qR4UoiIi0besAT_pczdv8A6ft_-VywgRERERERERERERERERFkF0Kbnt2m6p9Bamq68UlBUXFtrrpSwvAgqmmEjiO-fmAz7eV9EDMeGuOCBj8fUELmREREVL_b8qR4UoiIi0besAR_pcz-f_gFv_yuWECIiIiIiIiIiIiIiIiIuSnnnp5o56eZ8UsTg-N7HFrmuB7EEeCPqvpd6fNbU24uymiNb0tQ6Vl4sVJUF7hhxcY2h-e5-bkDkexJHsrjoiIiKl_t-VI8KURERaNvV_8A9rmb_cFD_lcsIERERERERERERERERERS3yt43pBatOoekdljfE9h0xqS4Wscz2c14jqwQP3R_wClHt9QSs4URERFS_2_KkeFKIiItG_rAf7XE3-4Lf8A5XLB9EREREREREREREREREUt8ra56I2pbu-3bqaPkqy61001rucFO5o4x1ErZ45XNI8l7IYgQfHwxj95bS0RERFS_wBvypHhSiIiLRt6wP8Atcz_AO4Lf_lcsIERERERERERERERERERFnr6P-5dZo_qRr9BTOlFHrWzTQFpIDG1FMfixyHIySGiZgwcD4hJBwt17Hl2Sexb7LkRERFS_',
+              value: 'BASE64_PLACEHOLDER_IMAGE',
               checked: true,
               enabled: true,
               elementIdentifier: 'portrait',
@@ -1837,7 +1836,7 @@ export const useMockStore = defineStore('mock', {
               documentDisplay: { name: null },
               status: 'CANCELLED',
               timestamp: 1737987746174,
-              authority: 'LVRTC',
+              authority: 'Test issuer',
             },
             {
               documentIdentifier: 'mDL',
@@ -1867,7 +1866,7 @@ export const useMockStore = defineStore('mock', {
               title: 'PID',
             },
           ],
-          issuerName: 'edim-demo-issuer-dev.zzdats.lv',
+          issuerName: 'issuer.example.invalid',
           txCodeLength: 5,
         },
       },
@@ -1877,10 +1876,10 @@ export const useMockStore = defineStore('mock', {
         id: 'string',
         status: 'SUCCESS',
         data: {
-          issuerName: 'edim-demo-issuer-dev.zzdats.lv',
+          issuerName: 'issuer.example.invalid',
           txCodeLength: 5,
           offerUri:
-            'openid-credential-offer://credential_offer?credential_offer\u003d%7B%22credential_issuer%22:%20%22https://edim-demo-issuer-dev.zzdats.lv%22%2C%20%22credential_configuration_ids%22:%20%5B%22eu.europa.ec.eudi.mdl_mdoc%22%2C%20%22eu.europa.ec.eudi.pid_mdoc%22%5D%2C%20%22grants%22:%20%7B%22urn:ietf:params:oauth:grant-type:pre-authorized_code%22:%20%7B%22pre-authorized_code%22:%20%2283d7bac2-c1c9-45b9-8b77-c1d7b14334b3%22%2C%20%22tx_code%22:%20%7B%22length%22:%205%2C%20%22input_mode%22:%20%22numeric%22%2C%20%22description%22:%20%22Please%20provide%20the%20one-time%20code.%22%7D%7D%7D%7D',
+            'openid-credential-offer://credential_offer?credential_offer\u003d%7B%22credential_issuer%22:%20%22https://issuer.example.invalid%22%2C%20%22credential_configuration_ids%22:%20%5B%22eu.europa.ec.eudi.mdl_mdoc%22%2C%20%22eu.europa.ec.eudi.pid_mdoc%22%5D%2C%20%22grants%22:%20%7B%22urn:ietf:params:oauth:grant-type:pre-authorized_code%22:%20%7B%22pre-authorized_code%22:%20%22TEST-PRE-AUTH-CODE-00000000%22%2C%20%22tx_code%22:%20%7B%22length%22:%205%2C%20%22input_mode%22:%20%22numeric%22%2C%20%22description%22:%20%22Please%20provide%20the%20one-time%20code.%22%7D%7D%7D%7D',
         },
       },
     },
@@ -1947,17 +1946,17 @@ export const useMockStore = defineStore('mock', {
                 // if isContainer is true
                 signers: [
                   {
-                    name: 'Test Testiņš',
+                    name: 'Tests Testiņš',
                     signedAt: '2025-03-07T09:58:13Z',
                     type: 'eSign', // eSign, eSeal, testESign
                   },
                   {
-                    name: 'Māra Paraudziņa',
+                    name: 'Testa Testiņa',
                     signedAt: '2025-03-07T09:58:13Z',
                     type: 'eSeal', // eSign, eSeal, testESign
                   },
                   {
-                    name: 'Māris Paraudziņš',
+                    name: 'Testiņu Testiņš',
                     signedAt: '2025-03-07T09:58:13Z',
                     type: 'testESign', // eSign, eSeal, testESign
                   },
@@ -2009,7 +2008,7 @@ export const useMockStore = defineStore('mock', {
                 isFavorite: true,
                 expirationDate: '2025-11-04T12:05:52+01:00',
                 issuanceDate: '2024-11-04T12:05:52+01:00',
-                displayNumber: '545353543', // todo
+                displayNumber: '000000000', // todo
               },
             },
             {
@@ -2033,7 +2032,7 @@ export const useMockStore = defineStore('mock', {
                 isFavorite: true,
                 expirationDate: '2025-11-04T12:05:52+01:00',
                 issuanceDate: '2024-11-04T12:05:52+01:00',
-                displayNumber: '545353543', // todo
+                displayNumber: '000000000', // todo
               },
             },
           ],
@@ -2052,7 +2051,7 @@ export const useMockStore = defineStore('mock', {
         data: {
           theme: 'string', // light | dark | system
           language: 'en', // en | lv
-          fullName: 'Test Testiņš',
+          fullName: 'Tests Testiņš',
           system: 'ios', // android | ios
           env: 'dev', // prod | dev
           appVersion: '1.0.0',

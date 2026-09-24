@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: EUPL-1.2
+
 import useAppStore from '@/stores/useAppStore';
 import useAuthStore from '@/stores/useAuthStore';
 import { useI18n } from 'vue-i18n';

@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: EUPL-1.2
+
 /* eslint-disable no-console -- for debugging */
 /* eslint-disable no-restricted-imports -- vite doesn`t use aliases in imports */
 /* eslint-disable import/no-extraneous-dependencies -- vite mostly should use dev dependencies */

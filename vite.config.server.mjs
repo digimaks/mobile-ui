@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: EUPL-1.2
+
 /**
  * @param { ReturnType<getEnvVariables> } env
  * @returns { import('vite').ServerOptions }

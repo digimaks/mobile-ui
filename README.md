@@ -1,10 +1,13 @@
 # Digimaks WebApp
 
-Digimaks is an [EU Digital Identity Wallet (EUDIW)](https://ec.europa.eu/digital-building-blocks/sites/display/EUDIGITALIDENTITYWALLET/EU+Digital+Identity+Wallet+Home) application for mobile
-platforms, continuing the work of the
-[NOBID Consortium](https://www.nobidconsortium.com/). This repository contains
-the Vue WebApp used as its user interface and communication layer inside the
-native mobile applications.
+Digimaks is a mobile digital wallet built on open EUDI Wallet reference
+components and technically aligned with the formats and protocols of the
+EUDI Wallet Architecture and Reference Framework (SD-JWT VC, mdoc,
+OpenID4VCI, OpenID4VP).
+
+> Digimaks is not a certified European Digital Identity Wallet within the
+> meaning of Regulation (EU) 2024/1183 and is not the national wallet of
+> any EU Member State.
 
 Built with the [LX/UI platform](https://github.com/dativa-lv/lx-ui) and
 [Vue.js 3](https://vuejs.org/) for fast, consistent, and accessible user

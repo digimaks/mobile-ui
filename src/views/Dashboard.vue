@@ -1,3 +1,5 @@
+<!-- SPDX-License-Identifier: EUPL-1.2 -->
+
 <script setup>
 import { LxButton, LxForm, LxRow, LxTile, LxFlag, LxInfoBox } from '@dativa-lv/lx-ui';
 import { ref, onMounted, computed, onBeforeUnmount, watch } from 'vue';

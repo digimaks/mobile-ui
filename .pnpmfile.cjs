@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: EUPL-1.2
+
 // ToDo: remove this override with local functionality when/if pnpm supports linking without requiring a project file changes (like yarn link)
 // open issue: https://github.com/pnpm/pnpm/issues/4341
 const localPackages = {
